@@ -4,6 +4,9 @@ A full-scale, AI-driven full-stack web application designed to parse, validate, 
 
 ---
 
+## Live link
+https://aragen-gen-ai-mcp-jwof-alpha.vercel.app/
+
 ## Architecture & Tech Stack
 
 *   **Backend**: Python, FastAPI, Model Context Protocol (`mcp` server), Pandas, Pydantic.
@@ -108,6 +111,3 @@ Below are demonstrations of the application workflow and user interface.
 
 *Color-coded status badges (🚨 Critical, ⚠️ Warning, ✓ Normal) paired with granular clinical explanations and dataset follow-up actions.*
 
-### Video Walkthrough
-
-*End-to-end demonstration showcasing backend MCP communication, agent routing, and frontend rendering.*

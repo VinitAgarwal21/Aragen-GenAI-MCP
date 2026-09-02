@@ -10,7 +10,9 @@ function App() {
     const handleProcess = async (data) => {
         setIsAnalyzing(true);
         try {
-            const response = await axios.post('http://localhost:8000/analyze_labs', { labs: data });
+  
+    const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+    const response = await axios.post(`${apiUrl}/analyze_labs`, { labs: data });
             setResults(response.data.results);
         } catch (error) {
             console.error("Error analyzing labs:", error);
